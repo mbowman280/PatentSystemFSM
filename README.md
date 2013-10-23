@@ -3,6 +3,7 @@ PatentSystemFSM
 October 23, 2013
 Mark Bowman, IP Osgoode Intensive Fellow, CodeX Intern & Stanford Visiting Researcher, 2014 JD Candidate
 
+Intro
 ---------------
 
 The PatentSystemFSM project attempts to codify certain procedures of the patent system in certain international jurisdictions. This project is a collaboration between CodeX: The Stanford Center for Legal Informatics at Stanford University and IP Osgoode at Osgoode Hall Law School.  
@@ -11,7 +12,10 @@ The project will first focus on the patent application process in the U.S.A and 
 
 The software library will allow a user to enter in a set of boolean variables (yes or no, this happened or this didn't happen) with associated dates into the FSM and retrieve the state of the patent process which their actions would place them in. A brief example of a user for the US and CDN patent systems is a user who has applied for a patent (in either jurisdiction) within the past 18 months with no other actions: this would place the user in state where their application is active but confidential. As soon as the 18 month period elapses, the user would change state to a state where their application is active but disclosed to the public.
 
+Goals
+---------------
 The short term implementation goal of this project is to create a software library representing the specific portion of the patent application procedure for the identified jurisdictions. Once this is completed the project might expand to additional jurisdictions, additional patent processes (such as processes related to challenging a patent, licensing, etc.), and/or additional software functionality.
+
 
 The short term goals of this project include: 
 
@@ -20,6 +24,7 @@ The short term goals of this project include:
 2) creating a "first step" in codifying the patent process, allowing other users to build functionality on top of this library
 
 3) creating a comparative law tool that allows the comparison of patent systems around the world
+
 
 
 The long term goals of this project include:
