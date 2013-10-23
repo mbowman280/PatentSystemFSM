@@ -2,6 +2,7 @@ PatentSystemFSM
 ===============
 October 23, 2013
 Mark Bowman, IP Osgoode Intensive Fellow, CodeX Intern & Stanford Visiting Researcher, 2014 JD Candidate
+
 ---------------
 
 The PatentSystemFSM project attempts to codify certain procedures of the patent system in certain international jurisdictions. This project is a collaboration between CodeX: The Stanford Center for Legal Informatics at Stanford University and IP Osgoode at Osgoode Hall Law School.  
