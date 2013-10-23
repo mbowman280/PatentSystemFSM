@@ -14,11 +14,16 @@ The software library will allow a user to enter in a set of boolean variables (y
 The short term implementation goal of this project is to create a software library representing the specific portion of the patent application procedure for the identified jurisdictions. Once this is completed the project might expand to additional jurisdictions, additional patent processes (such as processes related to challenging a patent, licensing, etc.), and/or additional software functionality.
 
 The short term goals of this project include: 
+
 1) creating an information source for current and future patent applicants that attempts to visually (through the FSM) and programically describe the entire scope of the relevant patent system, explaining the different states and outcomes of the patent system in a descriptive and easy to understand way
+
 2) creating a "first step" in codifying the patent process, allowing other users to build functionality on top of this library
+
 3) creating a comparative law tool that allows the comparison of patent systems around the world
 
 
 The long term goals of this project include:
+
 1) achieving the short term goals
+
 2) introducing the principle of stare decisis into the transitions between states: the library created in the vision of the short term goal will ask the user a simple question such as "is the idea novel?", this question is much more complicated and consistently the subject of litigation; by introducing judicial interpretation and Patent Office Practice into the library, we can provide the user with a very detailed rule set that determines each transition (although we would still require the user to make the decision on whether the rules et allows or deny's the transition, i.e. determining if the idea is novel).
