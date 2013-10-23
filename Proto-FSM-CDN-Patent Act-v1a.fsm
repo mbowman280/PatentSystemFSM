@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<!DOCTYPE qfsmproject SYSTEM 'qfsm.dtd'>
+<qfsmproject version="0.53" author="Qfsm">
+  <machine nummooreout="8" transfontitalic="0" draw_it="1" statefontsize="8" transfont="Helvetica" statefontitalic="0" author="Mark Bowman" description="" version="v1" name="FSMCDNPatentAct" arrowtype="1" numbits="2" statefontweight="50" statefont="Helvetica" numin="8" transfontsize="8" transfontweight="50" type="1" numout="8" initialstate="0">
+    <outputnames_moore>s_out7,s_out6,s_out5,s_out4,s_out3,s_out2,s_out1,s_out0</outputnames_moore>
+    <inputnames>i_7,i_6,i_5,i_4,i_3,i_2,i_1,i_0</inputnames>
+    <outputnames>o_7,o_6,o_5,o_4,o_3,o_2,o_1,o_0</outputnames>
+    <itransition ypos="222" endx="46" xpos="-14" endy="222"/>
+    <state pencolor="0" radius="40" description="" finalstate="0" moore_outputs="2" ypos="222" code="0" xpos="86" linewidth="1">IdeaND</state>
+    <state pencolor="0" radius="40" description="" finalstate="0" moore_outputs="1" ypos="380" code="1" xpos="175" linewidth="1">IdeaD</state>
+    <state pencolor="0" radius="40" description="" finalstate="1" moore_outputs="0" ypos="238" code="2" xpos="311" linewidth="1">CDNAppConf</state>
+    <transition c1x="123.5020034082056" c2y="314.439877069387" c1y="285.6455553394962" description="" straight="1" type="1" ypos="256.8512336096055" endx="159.2432280568333" xpos="105.6313910838917" endy="343.2341987992777" c2x="141.3726157325194">
+      <from>0</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">b</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="174.369125747283" c2y="230.3048336531517" c1y="227.5710566898718" description="" straight="1" type="1" ypos="224.8372797265919" endx="271.3088849314533" xpos="125.8992461551979" endy="233.0386106164317" c2x="222.8390053393682">
+      <from>0</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">a</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="16.61754260961105" c2y="123.315137166631" c1y="124.0914988038788" description="" straight="1" type="1" ypos="184.4900495710519" endx="99.46860208400513" xpos="72.10742576705624" endy="184.3357363286798" c2x="154.2736980656472">
+      <from>0</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="1">a|b</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="230.0458436005488" c2y="295.8557103057099" c1y="323.4838572998272" description="" straight="1" type="1" ypos="351.1120042939444" endx="284.8027784632863" xpos="202.6673761691801" endy="268.2275633115927" c2x="257.4243110319176">
+      <from>1</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">c</inputs>
+      <outputs></outputs>
+    </transition>
+  </machine>
+</qfsmproject>
